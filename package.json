@@ -6,10 +6,24 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-script start"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "cross-env": "^10.1.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.7"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   }
 }
